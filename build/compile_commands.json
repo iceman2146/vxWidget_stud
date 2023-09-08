@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/Comp/Documents/Repos/NewFolder/vxWidget_tutorial/build",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -DUNICODE -DWXUSINGDLL -D_UNICODE @CMakeFiles/main.dir/includes_CXX.rsp -g -o CMakeFiles\\main.dir\\src\\main.cpp.obj -c C:\\Users\\Comp\\Documents\\Repos\\NewFolder\\vxWidget_tutorial\\src\\main.cpp",
+  "file": "C:/Users/Comp/Documents/Repos/NewFolder/vxWidget_tutorial/src/main.cpp",
+  "output": "CMakeFiles/main.dir/src/main.cpp.obj"
+}
+]

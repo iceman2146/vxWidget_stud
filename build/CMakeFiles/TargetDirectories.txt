@@ -1,0 +1,3 @@
+C:/Users/Comp/Documents/Repos/NewFolder/vxWidget_tutorial/build/CMakeFiles/main.dir
+C:/Users/Comp/Documents/Repos/NewFolder/vxWidget_tutorial/build/CMakeFiles/edit_cache.dir
+C:/Users/Comp/Documents/Repos/NewFolder/vxWidget_tutorial/build/CMakeFiles/rebuild_cache.dir
