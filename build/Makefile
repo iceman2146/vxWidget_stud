@@ -128,6 +128,30 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+src/MainWin.obj: src/MainWin.cpp.obj
+.PHONY : src/MainWin.obj
+
+# target to build an object file
+src/MainWin.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/MainWin.cpp.obj
+.PHONY : src/MainWin.cpp.obj
+
+src/MainWin.i: src/MainWin.cpp.i
+.PHONY : src/MainWin.i
+
+# target to preprocess a source file
+src/MainWin.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/MainWin.cpp.i
+.PHONY : src/MainWin.cpp.i
+
+src/MainWin.s: src/MainWin.cpp.s
+.PHONY : src/MainWin.s
+
+# target to generate assembly for a file
+src/MainWin.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/MainWin.cpp.s
+.PHONY : src/MainWin.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -161,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... main
+	@echo ... src/MainWin.obj
+	@echo ... src/MainWin.i
+	@echo ... src/MainWin.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

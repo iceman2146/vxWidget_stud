@@ -1,16 +1,21 @@
-#include <iostream>
-#include <wx/string.h>
-#include <wx/crt.h>
-#include <wx/datetime.h>
+#include <wx/wxprec.h>
+#ifndef WX_PRECOMP
+    #include <wx/wx.h>
+#endif
+#include "MainWin.h"
 
-int main(int argc, char *argv[])
+class Main : public wxApp
 {
-    wxDateTime now = wxDateTime::Now();
-    wxString date1 = now.Format(wxT("%B %d %Y"));
-    wxPuts(date1);
-    wxDateSpan span(2023, 1,15);
-    wxDateTime then = now.Subtract(span);
-    wxString date2 = then.Format(wxT("%B %d %Y"));
-    wxPuts(date2);
+public:
+    virtual bool OnInit();
+};
+
+wxIMPLEMENT_APP(Main);//позволяет wxWidgets динамически создавать экземпляр объекта приложения в соответствующей точке инициализации wxWidgets
+
+bool Main::OnInit()
+{
+    MainWin *frame = new MainWin();
+    frame->Show(true);
     
+    return true;
 }

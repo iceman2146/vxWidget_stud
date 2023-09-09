@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/Comp/Documents/Repos/NewFolder/vxWidget_tutorial/src/MainWin.cpp" "CMakeFiles/main.dir/src/MainWin.cpp.obj" "gcc" "CMakeFiles/main.dir/src/MainWin.cpp.obj.d"
   "C:/Users/Comp/Documents/Repos/NewFolder/vxWidget_tutorial/src/main.cpp" "CMakeFiles/main.dir/src/main.cpp.obj" "gcc" "CMakeFiles/main.dir/src/main.cpp.obj.d"
   )
 
